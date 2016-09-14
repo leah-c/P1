@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,400);
+body {
+    background-color: #ffffff;
+    color: #666666;
+    font: normal 15px;
+    font-family: /*'Alegreya',*/
+    'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+#about_me {
+    width: 50%;
+    font-weight: bolder;
+    font-size: 45px;
+    border-style: dashed;
+    border-color: crimson;
+}
+
+.Project_List {
+    width: 150%;
+    margin: 3px;
+    padding: 5px;
+    list-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blueviolet;
+}
+
+.Project_Title {
+    display: inline-block;
+    list-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.Project_Title h2 {
+    padding: 5px;
+    margin: 5px 3px 3px 5px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#Portfolio {
+    width: 35%;
+}
